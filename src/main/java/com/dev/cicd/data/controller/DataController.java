@@ -10,7 +10,7 @@ import java.util.Locale;
 
 @RestController
 public class DataController {
-
+//teste
         @GetMapping("/")
         public String healthCheck() {
                 return "HEALTH CHECK OK!";
